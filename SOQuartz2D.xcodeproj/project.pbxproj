@@ -16,6 +16,9 @@
 		09A79D251CDB0E5D00361596 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A79D231CDB0E5D00361596 /* LaunchScreen.storyboard */; };
 		09A79D301CDB0E5D00361596 /* SOQuartz2DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A79D2F1CDB0E5D00361596 /* SOQuartz2DTests.m */; };
 		09A79D3B1CDB0E5D00361596 /* SOQuartz2DUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A79D3A1CDB0E5D00361596 /* SOQuartz2DUITests.m */; };
+		09A79D4B1CDB0FE100361596 /* UIImage+Clip.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A79D4A1CDB0FE100361596 /* UIImage+Clip.m */; };
+		09A79D4D1CDB14C300361596 /* th.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 09A79D4C1CDB14C300361596 /* th.jpeg */; };
+		09A79D501CDB1DDC00361596 /* SOUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A79D4F1CDB1DDC00361596 /* SOUIView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		09A79D361CDB0E5D00361596 /* SOQuartz2DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOQuartz2DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09A79D3A1CDB0E5D00361596 /* SOQuartz2DUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOQuartz2DUITests.m; sourceTree = "<group>"; };
 		09A79D3C1CDB0E5D00361596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A79D491CDB0FE100361596 /* UIImage+Clip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Clip.h"; sourceTree = "<group>"; };
+		09A79D4A1CDB0FE100361596 /* UIImage+Clip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Clip.m"; sourceTree = "<group>"; };
+		09A79D4C1CDB14C300361596 /* th.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = th.jpeg; sourceTree = "<group>"; };
+		09A79D4E1CDB1DDC00361596 /* SOUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOUIView.h; sourceTree = "<group>"; };
+		09A79D4F1CDB1DDC00361596 /* SOUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOUIView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,7 @@
 		09A79D111CDB0E5D00361596 /* SOQuartz2D */ = {
 			isa = PBXGroup;
 			children = (
+				09A79D481CDB0FBE00361596 /* Quartz */,
 				09A79D151CDB0E5D00361596 /* AppDelegate.h */,
 				09A79D161CDB0E5D00361596 /* AppDelegate.m */,
 				09A79D181CDB0E5D00361596 /* ViewController.h */,
@@ -141,6 +150,18 @@
 				09A79D3C1CDB0E5D00361596 /* Info.plist */,
 			);
 			path = SOQuartz2DUITests;
+			sourceTree = "<group>";
+		};
+		09A79D481CDB0FBE00361596 /* Quartz */ = {
+			isa = PBXGroup;
+			children = (
+				09A79D4C1CDB14C300361596 /* th.jpeg */,
+				09A79D491CDB0FE100361596 /* UIImage+Clip.h */,
+				09A79D4A1CDB0FE100361596 /* UIImage+Clip.m */,
+				09A79D4E1CDB1DDC00361596 /* SOUIView.h */,
+				09A79D4F1CDB1DDC00361596 /* SOUIView.m */,
+			);
+			name = Quartz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +270,7 @@
 				09A79D251CDB0E5D00361596 /* LaunchScreen.storyboard in Resources */,
 				09A79D221CDB0E5D00361596 /* Assets.xcassets in Resources */,
 				09A79D1D1CDB0E5D00361596 /* Main.storyboard in Resources */,
+				09A79D4D1CDB14C300361596 /* th.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +297,8 @@
 			files = (
 				09A79D1A1CDB0E5D00361596 /* ViewController.m in Sources */,
 				09A79D171CDB0E5D00361596 /* AppDelegate.m in Sources */,
+				09A79D501CDB1DDC00361596 /* SOUIView.m in Sources */,
+				09A79D4B1CDB0FE100361596 /* UIImage+Clip.m in Sources */,
 				09A79D201CDB0E5D00361596 /* SOQuartz2D.xcdatamodeld in Sources */,
 				09A79D141CDB0E5D00361596 /* main.m in Sources */,
 			);
